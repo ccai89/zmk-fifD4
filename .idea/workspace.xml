@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbb6a721-0c03-477c-88ff-2adb0fa18f86" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/fifD4/Kconfig.defconfig" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/fifD4/Kconfig.defconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/fifD4/Kconfig.shield" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/fifD4/Kconfig.shield" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/fifD4/fidD4.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/fifD4/fidD4.keymap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/west.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/west.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
