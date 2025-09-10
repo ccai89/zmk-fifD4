@@ -5,7 +5,10 @@
  */
 
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/pointing.h>
 
 / {
     behaviors {
@@ -102,11 +105,11 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp C_MUTE  &kp N1          &kp N2       &kp N3        &kp N4         &kp N5         &kp N6       &kp N7           &kp N8        &kp N9       &kp N0         &kp PRINTSCREEN
-&kp TAB     &kp Q           &kp W        &kp F         &kp P          &kp G          &kp J        &kp L            &kp U         &kp Y        &kp SEMICOLON  &kp BSPC
-&kp ESC     &hml AT_SIGN A  &hml LALT R  &hml LCTRL S  &hml LSHIFT T  &kp D          &kp M        &hmr RSHIFT N    &hmr RCTRL E  &hmr RALT I  &hmr RGUI O    &kp SQT
-&kp LSHFT   &kp Z           &kp X        &kp C         &kp V          &kp B          &kp K        &kp M            &kp COMMA     &kp DOT      &kp FSLH       &kp RIGHT_SHIFT
-                                         &kp PERCENT   &mo 1          &lt 3 SPACE    &lt 3 ENTER  &lt 2 BACKSPACE  &kp RALT
+&kp C_MUTE  &kp N1           &kp N2       &kp N3        &kp N4         &kp N5         &kp N6       &kp N7           &kp N8        &kp N9       &kp N0         &kp PRINTSCREEN
+&kp TAB     &kp Q            &kp W        &kp F         &kp P          &kp G          &kp J        &kp L            &kp U         &kp Y        &kp SEMICOLON  &kp BSPC
+&kp ESC     &hml LEFT_GUI A  &hml LALT R  &hml LCTRL S  &hml LSHIFT T  &kp D          &kp M        &hmr RSHIFT N    &hmr RCTRL E  &hmr RALT I  &hmr RGUI O    &kp SQT
+&kp LSHFT   &kp Z            &kp X        &kp C         &kp V          &kp B          &kp K        &kp M            &kp COMMA     &kp DOT      &kp FSLH       &kp RIGHT_SHIFT
+                                          &kp PERCENT   &mo 1          &lt 3 SPACE    &lt 3 ENTER  &lt 2 BACKSPACE  &kp RALT
             >;
         };
 
