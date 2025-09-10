@@ -2,7 +2,7 @@ file_format: "1"
 id: fifD4
 name: fifD4
 type: shield
-url: https://github.com/ccai89/fifD4
+url: https://github.com/ccai89/zmk-fifD4
 requires: [waveshare_rp2040_zero]
 features:
   - keys
