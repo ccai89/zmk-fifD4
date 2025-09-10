@@ -19,5 +19,5 @@
 #
 ---
 include:
-  - board: RP2040-Zero
+  - board: waveshare_rp2040_zero
     shield: fifD4
