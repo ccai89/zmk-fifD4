@@ -6,7 +6,8 @@ manifest:
       url-base: https://github.com/ccai89
   projects:
     - name: zmk
-      remote: zmk-fifD4
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
   self:
     path: config
