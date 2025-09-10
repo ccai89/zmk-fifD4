@@ -5,9 +5,9 @@ manifest:
     - name: nmunnich
       url-base: https://github.com/nmunnich
   projects:
-    - name: zmk
+    - name: zmk-component-rp2040-zero
       remote: nmunnich
-      revision: rp2040zero
+      revision: main
       import: app/west.yml
   self:
     path: config
