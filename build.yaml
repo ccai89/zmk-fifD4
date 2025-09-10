@@ -19,5 +19,5 @@
 #
 ---
 include:
-  - board: rp2040_zero
+  - board: RP2040-Zero
     shield: fifD4

@@ -2,12 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: nmunnich
-      url-base: https://github.com/nmunnich
+    - name: miketronic
+      url-base: https://github.com/miketronic
   projects:
-    - name: zmk-component-rp2040-zero
-      remote: nmunnich
-      revision: main
+    - name: zmk
+      remote: miketronic
+      revision: rp2040zero
       import: app/west.yml
   self:
     path: config
