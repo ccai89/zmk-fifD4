@@ -23,9 +23,9 @@
 
         default_layer {
 // ----------------------------------------------------------------------------------------
-// |      |     | ESC |  F1  |  F2  |  F3  |  F4  |  F5  |  F6  |  F7  |  F8  |   DEL     |
-// |  TAB |  Q  |  W  |  E   |  R   |  T   |   Y  |  U   |  I   |  O   |  P   |   BSPC    |
-// | CAPS |  A  |  S  |  D   |  F   |  G   |   H  |  J   |  K   |  L   |  ;   |   RET     |
+// | MUTE |  N1 | N2  |  N3  |  N4  |  N5  |  N6  |  N7  |  N8  |  N9  |  N0  |   DEL     |
+// | TAB  |  Q  |  W  |  E   |  R   |  T   |   Y  |  U   |  I   |  O   |  P   |   BSPC    |
+// | ESC  |  A  |  S  |  D   |  F   |  G   |   H  |  J   |  K   |  L   |  ;   |   RET     |
 // | SHFT |  Z  |  X  |  C   |  V   |  B   |   N  |  M   |  ,   |  .   |    SHFT(/)       |
 // | CTRL | GUI | ALT |      LOWER(SPACE)  | RAISE(SPACE)|  ALT | GUI  |    CTRL(\)       |
 // |
