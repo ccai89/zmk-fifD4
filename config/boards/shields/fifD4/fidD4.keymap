@@ -7,6 +7,11 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
+#define COLEMAK 0
+#define FUNC 1
+#define SYMBOLSNUMS 2
+#define MOUSE 3
+
 / {
     behaviors {
         td0: td0 {
@@ -130,7 +135,7 @@
         };
 
         Symbol_Num {
-            display-name = "SYMBOL&NUM";
+            display-name = "SymbolsNums";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
@@ -148,6 +153,7 @@
         };
 
         Mouse {
+        display-name = "Mouse";
             bindings = <
 &bt BT_SEL 0  &bt BT_SEL 4  &trans     &trans     &trans     &trans    &trans            &trans          &trans          &trans           &trans  &bt BT_CLR_ALL
 &bt BT_SEL 1  &bt BT_NXT    &trans     &mkp MB5   &mkp MB4   &trans    &kp K_PLAY_PAUSE  &trans          &mmv MOVE_UP    &trans           &trans  &out OUT_TOG

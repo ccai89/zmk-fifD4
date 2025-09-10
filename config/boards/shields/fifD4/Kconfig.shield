@@ -1,5 +1,5 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config fifD4
+config FIFD4
     def_bool $(shields_list_contains,fifD4)
