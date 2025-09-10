@@ -3,11 +3,11 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: glebsexy
-      url-base: https://github.com/ccai89
+      url-base: https://github.com/glebsexy
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: glebsexy
+      revision: add-rp2040-zero
       import: app/west.yml
   self:
     path: config
