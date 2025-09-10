@@ -6,11 +6,10 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: glebsexy
       url-base: https://github.com/glebsexy
-    - name: ccai89
-      url-base: https://github.com/ccai89
   projects:
     - name: zmk
-      remote: ccai89
+      remote: glebsexy
+      revision: rp2040-zero-plus-combos-fix
       import: app/west.yml
   self:
     path: config
