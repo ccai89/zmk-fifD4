@@ -1,0 +1,236 @@
+layout: {zmk_keyboard: fifD4}
+layers:
+  Colemak:
+  - MUTE
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - PRINTSCREEN
+  - TAB
+  - Q
+  - W
+  - F
+  - P
+  - G
+  - J
+  - L
+  - U
+  - Y
+  - ;
+  - BSPC
+  - ESC
+  - {t: A, h: LEFT GUI}
+  - {t: R, h: LALT}
+  - {t: S, h: LCTRL}
+  - {t: T, h: LSHIFT}
+  - D
+  - M
+  - {t: N, h: RSHIFT}
+  - {t: E, h: RCTRL}
+  - {t: I, h: RALT}
+  - {t: O, h: RGUI}
+  - ''''
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - K
+  - M
+  - ','
+  - .
+  - /
+  - RIGHT SHIFT
+  - '%'
+  - Func
+  - {t: SPACE, h: Mouse}
+  - {t: ENTER, h: Mouse}
+  - {t: BACKSPACE, h: SYMBOL&NUM}
+  - RALT
+  Func:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - {t: ▽, type: trans}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - '`'
+  - '~'
+  - BSPC
+  - {t: ▽, type: trans}
+  - LEFT
+  - UP
+  - DOWN
+  - DOWN
+  - PAGE UP
+  - HOME
+  - LEFT
+  - UP
+  - DOWN
+  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PAGE DOWN
+  - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - INS
+  - DEL
+  - {t: ▽, type: trans}
+  SYMBOL&NUM:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP 7
+  - KP 8
+  - KP 9
+  - /
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - {t: ▽, type: trans}
+  - KP 4
+  - KP 5
+  - KP 6
+  - '*'
+  - BSPC
+  - {t: ▽, type: trans}
+  - ^
+  - '&'
+  - '*'
+  - '|'
+  - +
+  - '-'
+  - KP 1
+  - KP 2
+  - KP 3
+  - +
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '`'
+  - Gui+~
+  - _
+  - _
+  - KP 0
+  - .
+  - ENTER
+  - '-'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - SPACE
+  - RET
+  - {type: held}
+  - {t: ▽, type: trans}
+  Mouse:
+  - {t: BT, h: '0'}
+  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT CLR ALL
+  - {t: BT, h: '1'}
+  - BT NXT
+  - {t: ▽, type: trans}
+  - '&mkp MB5'
+  - '&mkp MB4'
+  - {t: ▽, type: trans}
+  - PLAY PAUSE
+  - {t: ▽, type: trans}
+  - '&mmv MOVE_UP'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - OUT TOG
+  - {t: BT, h: '2'}
+  - BT PRV
+  - '&mkp RCLK'
+  - '&mkp MCLK'
+  - '&mkp LCLK'
+  - {t: ▽, type: trans}
+  - NEXT
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: BT, h: '3'}
+  - BT CLR
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PREVIOUS
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [28, 27]
+  k: (
+  l: [Colemak]
+- p: [31, 32]
+  k: )
+- p: [16, 15]
+  k: '{'
+- p: [19, 20]
+  k: '}'
+- p: [40, 39]
+  k: '['
+- p: [43, 44]
+  k: ']'
