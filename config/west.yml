@@ -4,11 +4,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    # Additional modules containing boards/shields/custom code can be listed here as well
-    # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
+    - name: glebsexy
+      url-base: https://github.com/glebsexy
   projects:
     - name: zmk
-      remote: zmkfirmware
+      remote: glebsexy
+      revision: rp2040-zero-plus-combos-fix
       import: app/west.yml
   self:
     path: config
